@@ -18,17 +18,17 @@
             <div class=" col-md-6 left">
                 <fieldset>
                 <h2>Contact</h2>
-                <form class="needs-validation" method="post" action="mailto:alexisrafe@gmail.com"  novalidate>
+                <form class="needs-validation" method="POST" action="http://gil83.fr/nolark/testforms.php"  novalidate>
                     <div class="form-col">
                         <div class="col-lg-6">
                             <label for="prenom">Prénom</label>
                             <input type="text" class="form-control" name="prenom" pattern="^[a-zA-ZáàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ\s\-]+$" required>
-                            <div class="invalid-feedback">Veuillez entrez votre prénom</div>
+                            <div class="invalid-feedback">Veuillez entrez un prénom valide</div>
                         </div>
                         <div class="col-lg-6">
                             <label for="email">Email</label>
                             <input type="text" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" class="form-control" name="email" placeholder="exemple@xyz.fr" required>
-                            <div class="invalid-feedback">Veuillez entrez votre Email</div>
+                            <div class="invalid-feedback">Veuillez entrez un Email valide</div>
                         </div>
                         <div class="col-lg-6">
                             <label for="sujet">Sujet</label>
