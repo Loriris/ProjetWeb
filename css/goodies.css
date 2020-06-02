@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2 juin 2020, 13:31:07
+    Author     : niko8
+*/
+
+#carouselExampleCaptions
+{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 120px; 
+}
+
+.carousel-item img
+{
+    height: 100%;
+   width : 100%;
+}
+
+.TexteBriquet
+{
+  color: white;  
+}
+
+TexteCasquettes
+{
+   color: black;
+}
+
+.TexteGourdes
+{
+   color: black; 
+}
+
+.TexteLunettes
+{  
+   color: black;
+}
