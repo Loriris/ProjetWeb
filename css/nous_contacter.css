@@ -11,15 +11,15 @@ button{
     
 }
 .btn-primary{
-    background-color: #ECF0F1;
-    color: black;
-    border-color: #D5D8DC;
+    background-color: #ABB2B9;
+    border-color: #808B96;
+    color: white;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
     color: white;
-    background-color: black;
-    border-color: black; 
+    background-color: #545b62;
+    border-color: #ABB2B9; 
 }
 
 .form-col{
@@ -40,5 +40,9 @@ p{
 
 .col-md-6{
     background-color: #D5D8DC;
+}
+
+h2{
+    padding: 30px;
 }
 
