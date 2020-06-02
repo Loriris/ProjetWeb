@@ -49,8 +49,8 @@ body{
 
 footer{
     background-color: #D5D8DC;
-    position: fixed;
-    bottom: 0px;
+    position: absolute;
+    bottom: 0;
     height: 100px;
     width: 100%;
 }
