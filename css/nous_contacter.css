@@ -1,0 +1,48 @@
+/*
+    Description : CSS pour la page nous_contacter.
+    Page web créé dans le cadre du projet Web/Dev ISEN Toulon 2020 
+    Auteur : Loris Martinez - Alexis Rafé - Nicolas Lebon
+    Email : lorismartinez1202@gmail.com - alexisrafe@gmail.com - niko83136@gmail.com
+*/
+
+button{
+    margin-left: 230px;
+    margin-top: 20px;
+    
+}
+.btn-primary{
+    background-color: #ABB2B9;
+    border-color: #808B96;
+    color: white;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: white;
+    background-color: #545b62;
+    border-color: #ABB2B9; 
+}
+
+.form-col{
+    margin-left: 30px;
+}
+
+h1{
+    text-align: center
+}
+
+.row{
+    margin-top: 50px;
+}
+
+p{
+    font-size : 20px;   
+}
+
+.col-md-6{
+    background-color: #D5D8DC;
+}
+
+h2{
+    padding: 30px;
+}
+
