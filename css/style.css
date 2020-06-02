@@ -50,7 +50,7 @@ body{
 footer{
     background-color: #D5D8DC;
     position: absolute;
-    bottom: 0;
+    bottom: 0; left: 0; right: 0;
     height: 100px;
     width: 100%;
 }
@@ -58,11 +58,10 @@ footer{
 footer p{
     margin-bottom: 0px;
     text-align: left;
-    padding-top: 30px;
-    padding-left: 50px;
     font-weight: bold;
     font-size: 12px;
 }
+
 .ficons{
     font-size: 20px;
     padding-left: 46%;
@@ -76,3 +75,4 @@ footer p{
     border-color: #ABB2B9!important;
     border-width: 2px!important;
 }
+
