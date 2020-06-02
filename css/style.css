@@ -47,3 +47,32 @@ body{
     background-color: #F8F9F9;
 }
 
+footer{
+    background-color: #D5D8DC;
+    position: fixed;
+    bottom: 0px;
+    height: 100px;
+    width: 100%;
+}
+
+footer p{
+    margin-bottom: 0px;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 50px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.ficons{
+    font-size: 20px;
+    padding-left: 46%;
+    padding-top: 10px;
+}
+.fab{
+    padding-right: 20px; 
+}
+
+.border-top{
+    border-color: #ABB2B9!important;
+    border-width: 2px!important;
+}
