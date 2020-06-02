@@ -5,6 +5,41 @@
     Email : lorismartinez1202@gmail.com - alexisrafe@gmail.com - niko83136@gmail.com
 */
 
-body{
-    background-color: pink;
+
+.navbar{
+    height: 85px;
 }
+.navbar navbar-expand-lg navbar-light bg-light{
+    margin-left: 10px;
+}
+.bg-light{
+    background-color: #D5D8DC!important;
+}
+
+.navbar-light .navbar-brand{
+    font-size: 35px;
+    margin-right: 30px;
+    margin-left: 15px;
+}
+a.nav-link{
+    font-size: 20px;
+    color : white!important;
+    padding-right: 25px!important;
+    padding-left: 25px!important;
+}
+a.nav-link:hover{
+    background-color: #ABB2B9;
+}
+
+.btn-secondary{
+    background-color: #ABB2B9;
+    border-color: #808B96;
+}
+
+.dropdown-item{
+    text-align: right;
+}
+body{
+    background-color: #F8F9F9;
+}
+
