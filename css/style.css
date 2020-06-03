@@ -59,11 +59,13 @@ footer p{
     text-align: left;
     font-weight: bold;
     font-size: 12px;
+    margin-left: 20px;
+    margin-top: 30px;
 }
 
 .ficons{
     font-size: 20px;
-    padding-left: 46%;
+    margin-left: 905px;;
     padding-top: 10px;
 }
 .fab{
@@ -77,32 +79,28 @@ footer p{
 
 #rubriques  {
     display: flex;
-    margin-bottom: 50%;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-left: 0;
 }
 
 #rubriques article{
     height: 500px;
-    margin: 30px;
-
+    margin: 17px;
+    margin-right: 0px;
+    margin-left: 40px;
+    position: relative;
 }
 .card-body{
     border: #ABB2B9 thin solid;
-    padding: 4.25rem;
+    padding: 1.5rem;
+    padding-bottom: 5rem;
 }
-.card-body-article3-4{
-    padding: 3.50rem;
-}
-.card-article1{
-    width: 400px;
-}
-.card-article2{
-    width: 437px;
-}
-.card-article3{
-    width: 322px;
-}
-.card-article4{
-    width: 340px;
+.card-article{
+    width: 427px;
 }
 
+.card-img-top{
+    height: 250px;
+}
 
