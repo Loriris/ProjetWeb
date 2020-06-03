@@ -49,7 +49,7 @@ body{
 }
 
 footer{
-    background-color: #D5D8DC;     
+    Background-color: #D5D8DC;
     height: 100px;
     width: 100%;
 }
@@ -57,11 +57,10 @@ footer{
 footer p{
     margin-bottom: 0px;
     text-align: left;
-    padding-top: 30px;
-    padding-left: 50px;
     font-weight: bold;
     font-size: 12px;
 }
+
 .ficons{
     font-size: 20px;
     padding-left: 46%;
@@ -98,5 +97,11 @@ footer p{
 
 .cardarticle3{
     width: 30%;
+}
+
+#rubriques article{
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
