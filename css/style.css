@@ -78,3 +78,8 @@ footer p{
     border-width: 2px!important;
 }
 
+#rubriques article{
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
