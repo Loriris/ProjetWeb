@@ -14,82 +14,93 @@
         <link href="../css/nous_contacter.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-            <a class="navbar-brand mb-0 h1" href="../index.html">ZoneSport</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav mr-auto">
-                 
-                    <li class="nav-item active">
-                        <a class="nav-link" href="../pages/goodies.html">Goodies</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="../pages/nous_contacter.html">Nous contacter</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="../pages/Qui sommes-nous.html">Qui sommes-nous ?</a>
-                    </li>
-                </ul>
-                <form class="form-inline">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                </form>
-            </div>
-            <div class="btn-group">
-                <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
-                    Autres
+        <header>    
+            <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+                <a class="navbar-brand mb-0 h1" href="../index.html">ZoneSport</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="dropdown-menu dropdown-menu-lg-right">
-                    <button class="dropdown-item" type="button"><i class="fas fa-plug"></i> Se connecter</button>
-                    <button class="dropdown-item" type="button"><i class="fas fa-shopping-cart"></i> Panier</button>
-                    <button class="dropdown-item" type="button"><i class="fas fa-search"></i> Rechercher</button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav mr-auto">
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="../pages/goodies.html">Goodies</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="../pages/nous_contacter.html">Nous contacter</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="../pages/Qui sommes-nous.html">Qui sommes-nous ?</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                    </form>
                 </div>
-            </div>
-        </nav>
-        
+                <div class="btn-group">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
+                        Autres
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-lg-right">
+                        <button class="dropdown-item" type="button"><i class="fas fa-plug"></i> Se connecter</button>
+                        <button class="dropdown-item" type="button"><i class="fas fa-shopping-cart"></i> Panier</button>
+                        <button class="dropdown-item" type="button"><i class="fas fa-search"></i> Rechercher</button>
+                    </div>
+                </div>
+            </nav>
+        </header>
         <div class="row">
-            <div class=" col-md-6 left">
+            <div class=" col-lg-6 left">
                 <fieldset>
-                <h2>Contact</h2>
-                <form class="needs-validation" method="POST" action="http://gil83.fr/nolark/testforms.php"  novalidate>
-                    <div class="form-col">
-                        <div class="col-lg-6">
-                            <label for="prenom">Prénom</label>
-                            <input type="text" class="form-control" name="prenom" pattern="^[a-zA-ZáàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ\s\-]+$" required>
-                            <div class="invalid-feedback">Veuillez entrez un prénom valide</div>
+                    <h2>Contact</h2>
+                    <form class="needs-validation" method="POST" action="http://gil83.fr/nolark/testforms.php"  novalidate>
+                        <div class="form-col">
+                            <div class="col-lg-6">
+                                <label for="prenom">Prénom</label>
+                                <input type="text" class="form-control" name="prenom" pattern="^[a-zA-ZáàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ\s\-]+$" required>
+                                <div class="invalid-feedback">Veuillez entrez un prénom valide</div>
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="email">Email</label>
+                                <input type="text" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" class="form-control" name="email" placeholder="exemple@xyz.fr" required>
+                                <div class="invalid-feedback">Veuillez entrez un Email valide</div>
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="sujet">Sujet</label>
+                                <input type="text" class="form-control" name="sujet" required>
+                                <div class="invalid-feedback">Veuillez entrez un sujet</div>
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="commentaire">Commentaire</label>
+                                <textarea class="form-control" rows=10 name="commentaire" required></textarea>
+                                <div class="invalid-feedback">Veuillez entrez votre commentaire</div>
+                            </div>
                         </div>
-                        <div class="col-lg-6">
-                            <label for="email">Email</label>
-                            <input type="text" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" class="form-control" name="email" placeholder="exemple@xyz.fr" required>
-                            <div class="invalid-feedback">Veuillez entrez un Email valide</div>
-                        </div>
-                        <div class="col-lg-6">
-                            <label for="sujet">Sujet</label>
-                            <input type="text" class="form-control" name="sujet" required>
-                            <div class="invalid-feedback">Veuillez entrez un sujet</div>
-                        </div>
-                        <div class="col-lg-6">
-                            <label for="commentaire">Commentaire</label>
-                            <textarea class="form-control" rows=10 name="commentaire" required></textarea>
-                            <div class="invalid-feedback">Veuillez entrez votre commentaire</div>
-                        </div>
-                    </div>
-                    <button class="btn btn-primary" type="submit">Envoyer</button>
-                 </form>
+                        <button class="btn btn-primary" type="submit">Envoyer</button>
+                    </form>
             </div>
-                <div class="col-md-6 right">
-                    <div class="col-md-11">
-                        <div class="row">
-                            <p> 
-                                Si vous voulez faire des remarques où poser des questions en générales sur la marque ou le site nous vous écoutons.
-                            </p>
-                        </div>
-                    </div>
+            <div class="col-lg-5 right">
+                <div class="col-md-11">
+
+                    <p> 
+                        Si vous voulez faire des remarques où poser des questions en générales sur la marque ou le site nous vous écoutons.
+                    </p>
+
                 </div>
+            </div>
         </div>
+        <footer class="border-top">
+            <div class="ficons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+            </div>
+
+            <p>&copy;2020 ZoneSport</p>
+        </footer>
         <script src="../js/nous_contacter.js"></script>
+        <script src="https://kit.fontawesome.com/d024b96f9f.js" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
