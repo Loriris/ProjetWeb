@@ -9,7 +9,7 @@ html{
 }
 
 .navbar{
-    height: 15%;
+    height: 90px;
     width: 100%;
 }
 .border-bottom{
@@ -23,18 +23,19 @@ html{
     background-color: #D5D8DC!important;
 }
 
+.imglogoheader{
+    width: 120px;
+}
 .navbar-light .navbar-brand{
-    font-size: 35px;
     margin-right: 30px;
     margin-left: 15px;
-    font-family: sans-serif;
 }
 a.nav-link{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
     color : white!important;
     padding-right: 25px!important;
-    padding-left: 25px!important;
+    padding-left: 15px!important;
 }
 a.nav-link:hover{
     background-color: #ABB2B9;
