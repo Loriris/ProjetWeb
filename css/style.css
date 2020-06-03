@@ -53,15 +53,21 @@ body{
     background-color: white;
 }
 
+.pagination{
+    justify-content: center;
+    padding-top: 0;
+}
 footer{
-    Background-color: #D5D8DC;
+    background-color: #D5D8DC;
     height: 100%;
     width: 100%;
     padding-top: 20px;
 }
 
 footer p{
-    margin-bottom: 0px;
+    position: relative;
+    bottom: 10px;
+    margin-bottom: 0;
     text-align: left;
     font-weight: bold;
     font-size: 12px;
@@ -70,12 +76,13 @@ footer p{
 }
 
 .ficons{
+    text-align: center;
     font-size: 20px;
-    padding-left: 48%;
-    padding-top: 5px;
+    padding-top: 0;
 }
 .fab{
-    padding-right: 20px; 
+    padding-right: 5px; 
+    padding-left: 5px;
 }
 
 .border-top{
@@ -86,7 +93,7 @@ footer p{
 #rubriques  {
     display: flex;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     margin-left: 0;
 }
 
