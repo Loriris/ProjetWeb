@@ -48,6 +48,8 @@ body{
     background-color: white;
 }
 
+
+
 footer{
     Background-color: #D5D8DC;
     height: 100px;
@@ -95,6 +97,13 @@ footer p{
     border: #ABB2B9 thin solid;
     padding: 1.5rem;
     padding-bottom: 5rem;
+}
+.badge-danger{
+    margin-left: 8px;
+}
+
+.badge-dark{
+    margin-left: 8px;
 }
 .card-article{
     width: 427px;
