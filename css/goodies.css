@@ -12,7 +12,7 @@ and open the template in the editor.
 {
     width: 50%;
     margin: 0 auto;
-    margin-top: 120px; 
+    margin-top: 20px; 
 }
 
 .carousel-item img
@@ -21,3 +21,50 @@ and open the template in the editor.
    width : 100%;
 }
 
+h1 {
+    color: #ff6811; /* Couleur du texte */
+    text-align: center; /* Le texte est centré */
+    font-size: xx-large; /* Le texte est grossi en XXL */
+}
+
+#thematique h1 {
+    width: 100%; /* Le titre occupe toute la largeur */ 
+    margin-bottom: 10px; /* Marge basse */
+    margin-top: 40px;
+    color: black;
+}
+
+.Photo1{
+font-family: 'Montserrat'; 
+display:inline;
+font-size: x-large;
+color: red;
+margin-left: 5%;
+
+}
+.Photo2{
+font-family: 'Montserrat'; 
+display:inline;
+font-size: x-large;
+color: red;
+}
+
+.Photo3{
+font-family: 'Montserrat'; 
+display:inline;
+font-size: x-large;
+color: red;
+margin-left: 35%;
+}
+
+#gauche {
+    background: transparent url('../images_goodies/element.png') no-repeat center 10px; /* Fond */
+}
+
+#milieu {
+    background: transparent url('images/casquecross.png') no-repeat center 0; /* Fond */
+}
+
+#droite {
+    background: transparent url('images/casquepiste.png') no-repeat center 10px; /* Fond */
+}
