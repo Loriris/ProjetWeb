@@ -127,3 +127,6 @@ footer p{
     height: 250px;
 }
 
+.recherche{
+    display:none;
+}
