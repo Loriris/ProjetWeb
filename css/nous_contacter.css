@@ -5,15 +5,12 @@
     Email : lorismartinez1202@gmail.com - alexisrafe@gmail.com - niko83136@gmail.com
 */
 
-button{
-    margin-left: 230px;
-    margin-top: 20px;
-    
-}
 .btn-primary{
     background-color: #ABB2B9;
     border-color: #808B96;
     color: white;
+    margin-left: 230px;
+    margin-top: 20px;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
@@ -64,7 +61,7 @@ input:-ms-input-placeholder {
     color: white !important; 
 }
 
-.container-fluid{
+body{
     overflow-x: hidden;
 }
 
