@@ -76,8 +76,27 @@ footer p{
     border-width: 2px!important;
 }
 
-#rubriques article{
-    display : flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+#rubriques  {
+    display: flex;
+    margin-bottom: 50%;
 }
+
+#rubriques article{
+    height: 275px;
+    margin: 10px;
+    padding: 5px;
+    border: white thin solid;
+    position: relative;
+}
+
+.cardarticle1{
+    width: 300px;
+}
+.cardarticle2{
+    width: 30%;
+}
+
+.cardarticle3{
+    width: 30%;
+}
+
