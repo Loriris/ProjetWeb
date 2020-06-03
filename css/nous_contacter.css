@@ -39,10 +39,28 @@ p{
 }
 
 .col-md-6{
-    background-color: #D5D8DC;
+    background-color: white;
 }
 
 h2{
     padding: 30px;
+}
+
+.form-control{
+    background-color: #808B96;
+    color : white;
+}
+
+input::-webkit-input-placeholder {
+    color: white !important;
+}
+input:-moz-placeholder { /* Firefox 18- */
+    color: white !important; 
+}
+input::-moz-placeholder { /* Firefox 19+ */
+    color: white !important; 
+}
+input:-ms-input-placeholder { 
+    color: white !important; 
 }
 
