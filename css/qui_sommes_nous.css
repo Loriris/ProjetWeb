@@ -1,0 +1,15 @@
+/*
+    Description : CSS pour la page qui_sommes_nous.
+    Page web créé dans le cadre du projet Web/Dev ISEN Toulon 2020 
+    Auteur : Loris Martinez - Alexis Rafé - Nicolas Lebon
+    Email : lorismartinez1202@gmail.com - alexisrafe@gmail.com - niko83136@gmail.com
+*/
+
+body{
+    overflow-x: hidden;
+}
+
+.text_pres{
+    margin-left: 30px;
+    margin-top: 50px;
+}
