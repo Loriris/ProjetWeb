@@ -7,7 +7,8 @@
 
 
 .navbar{
-    height: 60px;
+    height: 15%;
+    width: 100%;
 }
 .border-bottom{
     border-color: #ABB2B9!important;
@@ -27,6 +28,7 @@
     font-family: sans-serif;
 }
 a.nav-link{
+    font-weight: bold;
     font-size: 20px;
     color : white!important;
     padding-right: 25px!important;
@@ -36,6 +38,9 @@ a.nav-link:hover{
     background-color: #ABB2B9;
 }
 
+.dropdown-item.active, .dropdown-item:active{
+    background-color: #ABB2B9
+}
 .btn-secondary{
     background-color: #ABB2B9;
     border-color: #808B96;
@@ -48,12 +53,11 @@ body{
     background-color: white;
 }
 
-
-
 footer{
     Background-color: #D5D8DC;
-    height: 100px;
+    height: 100%;
     width: 100%;
+    padding-top: 20px;
 }
 
 footer p{
@@ -62,13 +66,13 @@ footer p{
     font-weight: bold;
     font-size: 12px;
     margin-left: 20px;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .ficons{
     font-size: 20px;
-    margin-left: 905px;;
-    padding-top: 10px;
+    padding-left: 48%;
+    padding-top: 5px;
 }
 .fab{
     padding-right: 20px; 
