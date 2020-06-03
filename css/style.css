@@ -24,6 +24,7 @@
     font-size: 35px;
     margin-right: 30px;
     margin-left: 15px;
+    font-family: sans-serif;
 }
 a.nav-link{
     font-size: 20px;
@@ -48,9 +49,10 @@ body{
 }
 
 footer{
-    background-color: #D5D8DC;
+    Background-color: #D5D8DC;
     position: absolute;
     bottom: 0; left: 0; right: 0;
+    background-color: #D5D8DC;     
     height: 100px;
     width: 100%;
 }
