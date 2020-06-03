@@ -4,3 +4,17 @@
     Auteur : Loris Martinez - Alexis Rafé - Nicolas Lebon
     Email : lorismartinez1202@gmail.com - alexisrafe@gmail.com - niko83136@gmail.com
 */
+
+body{
+    overflow-x: hidden;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+}
+
+.text_pres{
+    margin-left: 30px;
+    margin-top: 50px;
+}
