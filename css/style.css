@@ -4,7 +4,9 @@
     Auteur : Loris Martinez - Alexis Rafé - Nicolas Lebon
     Email : lorismartinez1202@gmail.com - alexisrafe@gmail.com - niko83136@gmail.com
 */
-
+html{
+    height: 100%;
+}
 
 .navbar{
     height: 15%;
