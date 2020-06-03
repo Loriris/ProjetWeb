@@ -75,3 +75,9 @@ footer p{
     border-color: #ABB2B9!important;
     border-width: 2px!important;
 }
+
+#rubriques article{
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
