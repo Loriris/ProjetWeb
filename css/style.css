@@ -117,12 +117,13 @@ a.nav-link:hover{
 }
 .footer-main{
     font-size: .875rem;
-    padding: 25px 0 25px;
+    padding: 15px 0 15px;
 }
 
 .footer-main .footer-container{
     display: flex;
     position: relative;
+    align-content: center;
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -142,7 +143,7 @@ a.nav-link:hover{
     font-weight: bold;
     font-size: 12px;
     text-align: left;
-    margin-top: 50px;;
+    margin-top: 60px;;
 }
 
 .fab{
@@ -157,6 +158,7 @@ a.nav-link:hover{
 }
 
 .footer-main .list-footer{
+    flex: 1;
     font-size: 15px;
 }
 
@@ -165,6 +167,7 @@ a.nav-link:hover{
     font-size: 15px;
     margin: 0;
     padding: 0;
+    float: right;
     text-align: center;
 }
 
