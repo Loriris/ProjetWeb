@@ -15,6 +15,7 @@
         <link href="../css/style.css" rel="stylesheet" type="text/css"/>
         <link href="../css/inscription.css" rel="stylesheet" type="text/css"/>
         <script src="https://kit.fontawesome.com/d024b96f9f.js" crossorigin="anonymous"></script>
+
     </head>
     <body class="page">
         <header>    
@@ -57,63 +58,103 @@
                 </div>
             </nav>
         </header>
-        <div class="main-form">
+        <div class="main-form needs-validation">
             <div class="main-title"><h3>Inscription :</h3></div>
-            <form>
+            <form class="needs-validation" novalidate>
+                <div class="form-radio">
+                    <div class="form-sexe">
+                        <label for="inputM">M.</label>
+                        <input type="radio" required>
+                    </div>
+                    <div class="form-sexe">
+                        <label for="inputMme">Mme</label>
+                        <input type="radio" required>
+                    </div>
+                    <div class="form-sexe">
+                        <label for="inputMlle">Mlle</label>
+                        <input type="radio" required>
+                    </div>
+                </div>
+
                 <div class="form-row">
                     <div class="form-group col-md-6">
-                        <label for="inputFirstname">Prénom</label>
-                        <input class="contact" type="text" placeholder="Prénom" pattern="[A-Za-z0-9]{1,}" required>
+                        <label for="inputFirstname">Prénom* :</label>
+                        <input  class="form-control" type="text"  pattern="^[a-zA-ZáàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ\s\-]+$" required>
+                        <div class="invalid-feedback">Veuillez entrez un Prénom valide</div>
                     </div>
                     <div class="form-group col-md-6">
-                        <label for="inputName">Nom</label>
-                        <input class="contact" type="text" placeholder="Nom" pattern="[A-Za-z0-9]{1,}" required>
+                        <label for="inputName">Nom* :</label>
+                        <input class="form-control" type="text" pattern="^[a-zA-ZáàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ\s\-]+$" required>
+                        <div class="invalid-feedback">Veuillez entrez un Nom valide</div>
                     </div>
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-6">
-                        <label for="inputEmail4">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4">
+                        <label for="inputEmail4">Email* :</label>
+                        <input type="email" placeholder="exemple@xyz.fr" class="form-control" id="inputEmail4" required>
+                        <div class="invalid-feedback">Veuillez entrez un Email valide</div>
                     </div>
                     <div class="form-group col-md-6">
-                        <label for="inputPassword4">Password</label>
-                        <input type="password" class="form-control" id="inputPassword4">
+                        <label for="inputPassword4">Mot de passe* :</label>
+                        <input type="password" class="form-control" id="inputPassword4" required>
+                        <div class="invalid-feedback">Veuillez entrez un Mot de passe valide</div>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputAddress">Address</label>
-                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    <label for="inputnum">Numéro de Téléphone :</label>
+                    <input class="form-control" type="text" pattern="0[1-9][0-9]{8}" placeholder="ex : 0153322327"/>
+                    <div class="invalid-feedback">Veuillez entrez un Numéro de Téléphone valide</div>
                 </div>
                 <div class="form-group">
-                    <label for="inputAddress2">Address 2</label>
-                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                    <label for="inputAddress">Adresse :</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1 Rue ZoneSport">
+                    <div class="invalid-feedback">Veuillez entrez une Adresse valide</div>
+                </div>
+                <div class="form-group">
+                    <label for="inputAddress2">Adresse 2 :</label>
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartement, studio, ou etage">
+                    <div class="invalid-feedback">Veuillez entrez une Adresse 2 valide</div>
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-6">
-                        <label for="inputCity">City</label>
+                        <label for="inputCity">Ville :</label>
                         <input type="text" class="form-control" id="inputCity">
+                        <div class="invalid-feedback">Veuillez entrez une Ville valide</div>
                     </div>
                     <div class="form-group col-md-4">
-                        <label for="inputState">State</label>
+                        <label for="inputState">Région :</label>
                         <select id="inputState" class="form-control">
-                            <option selected>Choose...</option>
-                            <option>...</option>
+                            <option selected>Choix...</option>
+                            <option>Auvergne-Rhône-Alpes</option>
+                            <option>Bourgogne-Franche-Comté</option>
+                            <option>Bretagne</option>
+                            <option>Centre-Val de Loire</option>
+                            <option>Corse</option>
+                            <option>Grand Est</option>
+                            <option>Guadeloupe</option>
+                            <option>Guyane</option>
+                            <option>Hauts-de-France</option>
+                            <option>Île-de-France</option>
+                            <option>Martinique</option>
+                            <option>Mayotte</option>
+                            <option>Normandie</option>
+                            <option>Nouvelle-Aquitaine</option>
+                            <option>Occitanie</option>
+                            <option>Pays de la Loire</option>
+                            <option>Provence-Alpes-Côte d'Azur</option>
+                            <option>La Réunion</option>
                         </select>
                     </div>
                     <div class="form-group col-md-2">
-                        <label for="inputZip">Zip</label>
-                        <input type="text" class="form-control" id="inputZip">
+                        <label for="inputZip">Code postal :</label>
+                        <input type="text" class="form-control" id="inputZip" pattern="[0-9]{5}">
+                        <div class="invalid-feedback">Veuillez entrez un Code postal valide</div>
                     </div>
                 </div>
                 <div class="form-group">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label class="form-check-label" for="gridCheck">
-                            Check me out
-                        </label>
-                    </div>
+                    <p>* Champs obligatoires</p>
                 </div>
-                <button type="submit" class="btn btn-primary">Sign in</button>
+                <button type="submit" class="btn btn-primary submit_index">Inscrire</button>
             </form>
         </div>    
         <footer id="border-top">
@@ -142,6 +183,7 @@
             </div>
         </footer>
     </div>
+    <script src="../js/nous_contacter.js" type="text/javascript"></script>
     <script src="js/index.js" type="text/javascript"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

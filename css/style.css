@@ -1,6 +1,6 @@
 /* 
     Description : CSS principal définissant la charte graphique du site. 
-    Created on : 30 avr. 2020, 10:23:27
+    Created on : 02 Juin 2020, 10:23:27
     Auteur : Loris Martinez - Alexis Rafé - Nicolas Lebon
     Email : lorismartinez1202@gmail.com - alexisrafe@gmail.com - niko83136@gmail.com
 */
@@ -187,7 +187,6 @@ a.nav-link:hover{
 .sponsor li a:hover{
     color: blue;
 }
-
 
 @media only screen and (min-width : 1024px) and (max-width : 1280px){
     body{
