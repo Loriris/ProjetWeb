@@ -4,9 +4,10 @@
     Auteur : Loris Martinez - Alexis Rafé - Nicolas Lebon
     Email : lorismartinez1202@gmail.com - alexisrafe@gmail.com - niko83136@gmail.com
 */
-html{
-    height: 100%;
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0;
 }
+
 .navbar{
     height: 90px;
     width: 100%;
@@ -56,100 +57,19 @@ a.nav-link:hover{
     background-color: white;
     height: 100%;
 }
-.pagination{
-    justify-content: center;
-    padding-top: 0;
-}
 
-#border-top{
-    display: block;
-    background-color: #D5D8DC;
-    border-color: #ABB2B9!important;
-    border-width: 2px!important;
-}
-.footer-main{
-    font-size: .875rem;
-    padding: 25px 0 25px;
-}
-
-.footer-main .footer-container{
-    display: flex;
-    position: relative;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.footer-main .footer-items{
-    margin-top: auto;
-}
-
-.footer-main .ficons{
-    flex: 1;
-    flex-direction: row;
-}
-
-.footer-main .copyright{
-    top: 145px;
-    font-weight: bold;
-    font-size: 12px;
-    text-align: left;
-    margin-top: 10%;
-}
-
-.fab{
-    padding-right:10px;
-    font-size: 20px;
-}
-
-.footer-main .fcenter{
-    flex: 1;
-    text-align: center;
-    justify-content: center;
-}
-
-.footer-main .list-footer{
-    flex: 1;
-    justify-content: flex-end;
-    font-size: 15px;
-
-}
-
-.sponsor{
-    color: black;
-    list-style-type: none;
-    font-size: 15px;
-    text-align: center;
-    margin: 0;
-    padding:0;
-}
-
-.sponsor li {
-    align-content: space-around;
-
-}
-.sponsor li a{
-    color: #1977FA;
-}
-.sponsor li a:hover{
-    color: blue;
-}
-#rubriques  {
-    height: 100%;
-    min-height: 100%;
+#rubriques{
     display: flex;
     flex-wrap: wrap;
-    align-content:  center;
-    margin-right: 0;
-    margin-left: 0;
+    margin: 0;
     width: 100%;
-    margin-bottom: 10px;
+    height: 100%;
+    justify-content: center;
 }
 
 #rubriques article{
     height: 500px;
     margin: 17px;
-    margin-right: 0px;
-    margin-left: 40px;
     position: relative;
     align-content: center;
 }
@@ -183,4 +103,84 @@ a.nav-link:hover{
 
 .block{
     display:block;
+}
+
+.pagination{
+    justify-content: center;
+    padding-top: 0;
+}
+
+#border-top{
+    background-color: #D5D8DC;
+    border-color: #ABB2B9!important;
+    border-width: 2px!important;
+}
+.footer-main{
+    font-size: .875rem;
+    padding: 25px 0 25px;
+}
+
+.footer-main .footer-container{
+    display: flex;
+    position: relative;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.footer-main .footer-items{
+    margin-top: auto;
+}
+
+.footer-main .ficons{
+    flex: 1;
+    flex-direction: row;
+    
+}
+
+.footer-main .copyright{
+    top: 145px;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: left;
+    margin-top: 50px;;
+}
+
+.fab{
+    padding-right:10px;
+    font-size: 20px;
+}
+
+.footer-main .fcenter{
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer-main .list-footer{
+    font-size: 15px;
+}
+
+.sponsor{
+    list-style-type: none;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.sponsor li a{
+    color: #1977FA;
+}
+.sponsor li a:hover{
+    color: blue;
+}
+
+
+@media only screen and (min-width : 1024px) and (max-width : 1280px){
+    body{
+        width: 100%;
+    }
+    article{
+        margin: 3%!important;
+    }
 }
