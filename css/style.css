@@ -8,6 +8,17 @@ html{
     height: 100%;
 }
 
+@font-face{ 
+    font-family: "Retrow";
+    src: url('../css/polices/Retrow Mentho Italic.ttf') format("truetype");
+}
+
+@font-face{ 
+    font-family: "Volkorn";
+    src: url('../css/polices/Vollkorn-BoldItalic.ttf') format("truetype");
+}
+
+
 .navbar{
     height: 90px;
     width: 100%;
