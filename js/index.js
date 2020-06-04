@@ -50,3 +50,35 @@ window.addEventListener('load', function ()
         }
     });
 });
+
+//Fonction gérant la fenêtre de connexion 
+window.addEventListener('load', function()
+{
+    let frame = document.querySelectorAll("#connexion");
+    let btn = document.querySelectorAll(".connexion-btn");
+    let close = document.querySelectorAll(".close");
+    
+    //si clique sur le bouton on affiche la frame
+    btn[0].addEventListener('click',function() 
+    {
+        frame[0].classList.add("block");
+        frame[0].classList.remove("none");
+    });
+    
+    //si on appuie sur la croix on ferme la frame
+    close[0].addEventListener('click',function() 
+    {
+        frame[0].classList.add("none");
+        frame[0].classList.remove("block");
+    });
+    
+    //si on n'importe ou en dehors de la frame on la ferme
+    window.addEventListener('click',function(event) 
+    {
+        if(event.target === frame[0])
+        {
+          frame[0].classList.add("none");
+          frame[0].classList.remove("block");
+        }
+    });
+});
