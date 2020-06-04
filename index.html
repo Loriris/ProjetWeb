@@ -32,7 +32,7 @@
                             <a class="nav-link" href="pages/nous_contacter.html">Nous contacter</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="pages/Qui sommes-nous.html">Qui sommes-nous ?</a>
+                            <a class="nav-link" href="pages/qui_sommes_nous.html">Qui sommes-nous ?</a>
                         </li>
                     </ul>
                     <form class="form-inline">
@@ -44,17 +44,20 @@
                     <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
                         Autres
                     </button>
-                    <div class="dropdown-menu dropdown-menu-lg-right" id="autres">
+                    <div class="dropdown-menu dropdown-menu-lg-right">
                         <button class="dropdown-item" type="button"><i class="fas fa-plug"></i> Se connecter</button>
                         <button class="dropdown-item" type="button"><i class="fas fa-shopping-cart"></i> Panier</button>
-                        <button class="dropdown-item" type="button"><i class="fas fa-search"></i> Rechercher</button>
-                        <input type="text" name="recherche" class="recherche">
+                        <button class="dropdown-item dropdown-toggle" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false"  type="button"><i class="fas fa-search"></i> Rechercher</button>
+                        <div class="dropdown-menu dropdown-menu-lg-right">
+                            <input type="text" name="recherche" class="dropdown-item" id="texteARechercher">
+                            <button class="btn btn-secondary col-lg-12" id="recherche">Recherche</button>
+                        </div>
                     </div>
                 </div>
             </nav>
         </header>
         <section id="rubriques" class="row">
-            <article>
+            <article class="e-sport">
                 <div class="card-article">
                     <img src="images_articles/valorant.jpg" class="card-img-top" alt="Valorant">
                     <div class="card-body">
@@ -64,7 +67,7 @@
                     </div>
                 </div>
             </article>
-            <article>
+            <article class="freestyle">
                 <div class="card-article">
                     <img src="images_articles/xgames.jpg" class="card-img-top" alt="Riding Zone">
                     <div class="card-body">
@@ -74,7 +77,7 @@
                     </div>
                 </div>
             </article>
-            <article>
+            <article class="sport">
                 <div class="card-article">
                     <img src="images_articles/rugby.jpg" class="card-img-top" alt="Rugby">
                     <div class="card-body">
@@ -84,7 +87,7 @@
                     </div>
                 </div>
             </article>
-            <article>
+            <article class="sport">
                 <div class="card-article">
                     <img src="images_articles/basketball.jpg" class="card-img-top" alt="NBA">
                     <div class="card-body">
@@ -94,7 +97,7 @@
                     </div>
                 </div>
             </article>
-            <article>
+            <article class="sport">
                 <div class="card-article">
                     <img src="images_articles/handball.jpg" class="card-img-top" alt="Handball">
                     <div class="card-body">
@@ -104,7 +107,7 @@
                     </div>
                 </div>
             </article>
-            <article>
+            <article class="evenement">
                 <div class="card-article">
                     <img src="images_articles/superbowl.jpg" class="card-img-top" alt="Superbowl">
                     <div class="card-body">
@@ -114,7 +117,7 @@
                     </div>
                 </div>
             </article>
-            <article>
+            <article class="sport">
                 <div class="card-article">
                     <img src="images_articles/surf.jpg" class="card-img-top" alt="Surf">
                     <div class="card-body">
@@ -124,7 +127,7 @@
                     </div>
                 </div>
             </article>
-            <article>
+            <article class="freestyle">
                 <div class="card-article">
                     <img src="images_articles/skate.jpg" class="card-img-top" alt="Skate">
                     <div class="card-body card-body-article3-4">
