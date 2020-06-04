@@ -29,7 +29,7 @@
   font-weight: bold;
   color: red;
   margin-bottom: -23px;
-  margin-left: 115px;
+  margin-left: 131px;
 }
 
 #lunettes .marque {
@@ -93,21 +93,26 @@
     z-index: 1; /* L'infobulle sera au dessus du reste */
 }
 
+#lunettes .link{
+    margin-left: 130px;
+    color:#ff5c00;
+}
+
 #lunettes .classement {
     width: 85px; /* Largeur de l'image */
     height: 18px; /* Hauteur de l'image */
     position: absolute; /* Position absolue */
-    bottom: -15px; /* Bas */
+    bottom: -29px; /* Bas */
     object-fit: none; /* Pas de redimensionnement de l'image */
     margin: 0 39px; /* Marges extérieures */
 }
 
 #lunettes .classement.classement00 {
-    object-position: 0 0px;
+    object-position: 0 -155px;
 }
 
 #lunettes .classement.classement05 {
-    object-position: 0 -18px;
+    object-position: 0 -126px;
 }
 
 #lunettes .classement.classement10 {
