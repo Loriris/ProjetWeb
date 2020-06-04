@@ -5,20 +5,6 @@
     Email : lorismartinez1202@gmail.com - alexisrafe@gmail.com - niko83136@gmail.com
 */
 
-.btn-primary{
-    background-color: #ABB2B9;
-    border-color: #808B96;
-    color: white;
-    margin-left: 230px;
-    margin-top: 20px;
-}
-
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
-    color: white;
-    background-color: #545b62;
-    border-color: #ABB2B9; 
-}
-
 .form-col{
     margin-left: 30px;
 }
