@@ -1,6 +1,6 @@
 /* 
     Description : CSS principal définissant la charte graphique du site. 
-    Created on : 30 avr. 2020, 10:23:27
+    Created on : 02 Juin 2020, 10:23:27
     Auteur : Loris Martinez - Alexis Rafé - Nicolas Lebon
     Email : lorismartinez1202@gmail.com - alexisrafe@gmail.com - niko83136@gmail.com
 */
@@ -188,7 +188,6 @@ a.nav-link:hover{
     color: blue;
 }
 
-
 @media only screen and (min-width : 1024px) and (max-width : 1280px){
     body{
         width: 100%;
@@ -196,4 +195,95 @@ a.nav-link:hover{
     article{
         margin: 3%!important;
     }
+}
+
+.connexion-frame {
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+}
+
+.connexion-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: fadeIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity:0} 
+    to {opacity:1}
+}
+
+@keyframes fadeIn {
+    from {opacity:0}
+    to {opacity:1}
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nom_utilisateur{
+    padding-left: 0px;
+    padding-right: 24px;
+}
+
+.mot_de_passe{
+    padding-right:24px;
+    padding-left: 0px;
+}
+
+.submit_contact{
+    background-color: #ABB2B9;
+    border-color: #808B96;
+    color: white;
+    margin-left: 230px;
+    margin-top: 20px;
+}
+
+.submit_contact:hover, .submit_contact:focus, .submit_contact:active, .submit_contact.active, .open>.dropdown-toggle.submit_contact {
+    color: white;
+    background-color: #545b62;
+    border-color: #ABB2B9; 
+}
+
+.submit_index{
+    background-color: #ABB2B9;
+    border-color: #808B96;
+    color: white;
+    margin-top: 20px;
+}
+
+.submit_index:hover, .submit_index:focus, .submit_index:active, .submit_index.active, .open>.dropdown-toggle.submit_index {
+    color: white;
+    background-color: #545b62;
+    border-color: #ABB2B9; 
+}
+
+.border_connection
+{
+    border-left: solid;
+    border-width: thin;
 }
