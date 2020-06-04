@@ -1,0 +1,61 @@
+ /* 
+    Description : CSS inscription définissant la forme de la page inscription du site. 
+    Created on : 4 juin 2020, 15:40:27
+    Auteur : Loris Martinez - Alexis Rafé - Nicolas Lebon
+    Email : lorismartinez1202@gmail.com - alexisrafe@gmail.com - niko83136@gmail.com
+*/
+
+body{
+    width:100%;
+    
+}
+
+.main-form{
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 100%;
+    margin-bottom: 40px;
+}
+
+.main-title{
+    margin: 20px;
+}
+.form-radio{
+    display: flex;
+    flex-direction: row;
+    
+}
+.form-sexe{
+    margin: 10px;
+}
+
+.form-control{
+    background-color: #808B96;
+    color : white;
+}
+
+input::-webkit-input-placeholder {
+    color: white !important;
+}
+input:-moz-placeholder {
+    color: white !important; 
+}
+input::-moz-placeholder {
+    color: white !important; 
+}
+input:-ms-input-placeholder { 
+    color: white !important; 
+}
+
+.submit_index{
+    background-color: #ABB2B9;
+    border-color: #808B96;
+    color: white;
+    margin-top: 20px;
+}
+
+.submit_index:hover, .submit_index:focus, .submit_index:active, .submit_index.active, .open>.dropdown-toggle.submit_index {
+    color: white;
+    background-color: #545b62;
+    border-color: #ABB2B9; 
+}
