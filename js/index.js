@@ -12,7 +12,7 @@ window.addEventListener('load', function ()
     btnRecherche[0].addEventListener('click', function ()
     {
         let input = document.querySelectorAll('#texteARechercher');
-        let text = input[0].value;
+        let text = input[0].value.toLowerCase();
         
         // récupération de tout les article de la page
         let article = document.querySelectorAll('article');
