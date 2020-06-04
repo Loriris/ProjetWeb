@@ -44,11 +44,14 @@
                     <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
                         Autres
                     </button>
-                    <div class="dropdown-menu dropdown-menu-lg-right" id="autres">
+                    <div class="dropdown-menu dropdown-menu-lg-right">
                         <button class="dropdown-item" type="button"><i class="fas fa-plug"></i> Se connecter</button>
                         <button class="dropdown-item" type="button"><i class="fas fa-shopping-cart"></i> Panier</button>
-                        <button class="dropdown-item" type="button"><i class="fas fa-search"></i> Rechercher</button>
-                        <input type="text" name="recherche" class="recherche">
+                        <button class="dropdown-item dropdown-toggle" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false"  type="button"><i class="fas fa-search"></i> Rechercher</button>
+                        <div class="dropdown-menu dropdown-menu-lg-right">
+                            <input type="text" name="recherche" class="dropdown-item" id="texteARechercher">
+                            <button class="btn btn-secondary col-lg-12" id="recherche">Recherche</button>
+                        </div>
                     </div>
                 </div>
             </nav>

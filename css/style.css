@@ -173,6 +173,14 @@ a.nav-link:hover{
     height: 250px;
 }
 
-.recherche{
+#recherche{
+    margin-top:10px;
+}
+
+.none{
     display:none;
+}
+
+.block{
+    display:block;
 }
