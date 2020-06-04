@@ -12,12 +12,13 @@ and open the template in the editor.
         <meta name="author" content="ZoneSport">
         <meta name="description" content="Découvrez le site de référence sportive sur le thème de ZoneSport !">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="../css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="../css/lunettes.css" rel="stylesheet" type="text/css"/>
         <script src="https://kit.fontawesome.com/d024b96f9f.js" crossorigin="anonymous"></script>
     </head>
     <header>    
         <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-            <a class="navbar-brand mb-0 h1" href="index.html">ZoneSport</a>
+            <a class="navbar-brand mb-0 h1" href="index.html"><img class="imglogoheader" src="../logo.png" alt="ZoneSport"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -31,7 +32,7 @@ and open the template in the editor.
                         <a class="nav-link" href="../pages/nous_contacter.html">Nous contacter</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="../pages/qui_sommes_nous.html">Qui sommes-nous ?</a>
+                        <a class="nav-link" href="../pages/Qui sommes-nous.html">Qui sommes-nous ?</a>
                     </li>
                 </ul>
                 <form class="form-inline">
@@ -43,21 +44,88 @@ and open the template in the editor.
                 <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
                     Autres
                 </button>
-                <div class="dropdown-menu dropdown-menu-lg-right">
+                <div class="dropdown-menu dropdown-menu-lg-right" id="autres">
                     <button class="dropdown-item" type="button"><i class="fas fa-plug"></i> Se connecter</button>
                     <button class="dropdown-item" type="button"><i class="fas fa-shopping-cart"></i> Panier</button>
                     <button class="dropdown-item" type="button"><i class="fas fa-search"></i> Rechercher</button>
+                    <input type="text" name="recherche" class="recherche">
                 </div>
             </div>
         </nav>
     </header>
+    <section id="lunettes">
+            <!-- - - - - - - - - - - - - - LIGNE N°1 - - - - - - - - - - - - -->
+            <article>
+                <img src="../images_goodies/lunettes/lunettes_2.jpg" alt="agv skyline blanc">
+                <p class="stockok"><abbr data-tip="Plus que 2 casques en stock...">stock</abbr></p>
+                <p class="prix">65,49€</p>
+                <p class="marque">julbo</p>
+                <p class="modele">Renegade Pink</p>
+                <img class="classement classement25" src="../images_goodies/lunettes/etoiles.gif" alt="Classement 3,5 sur 5">
+                <span class="link">(28 avis)</span>
+            </article>
+            <article>
+                <img src="../images_goodies/lunettes/lunettes_3.jpg" alt="agv skyline block blanc bleu">
+                <p class="stockok"><abbr data-tip="18 casques en stock">stock</abbr></p>
+                <p class="prix">72,89€</p>
+                <p class="marque">julbo</p>
+                <p class="modele">PERSOEVO7 Noir mat</p>
+                <img class="classement classement05" src="../images_goodies/lunettes/etoiles.gif" alt="Classement 4,5 sur 5">
+                <span class="link">(19 avis)</span>
+            </article>
+            <article>
+                <img src="../images_goodies/lunettes/lunettes_4.jpg" alt="agv skyline block blanc rouge">
+                <p class="stockok"><abbr data-tip="Plus que 9 casques en stock...">stock</abbr></p>
+                <p class="prix">82,99€</p>
+                <p class="marque">julbo</p>
+                <p class="modele">Shield Photochromique</p>
+                <img class="classement classement10" src="../images_goodies/lunettes/etoiles.gif" alt="Classement 2,5 sur 5">
+                <span class="link">(6 avis)</span>
+            </article>
+            <article>
+                <img src="../images_goodies/lunettes/lunettes_5.jpg" alt="agv Skyline Block Noir">
+                <p class="stockko"><abbr data-tip="Sur commande uniquement">stock</abbr></p>
+                <p class="prix">122,49€</p>
+                <p class="marque">Solary</p>
+                <p class="modele">Fury Spectron</p>
+                <img class="classement classement35" src="../images_goodies/lunettes/etoiles.gif" alt="Classement 1,5 sur 5">
+                <span class="link">(56 avis)</span>
+            </article>
+            <article>
+                <img src="../images_goodies/lunettes/lunettes_6.jpg" alt="agv Skyline Gunmetal Blue">
+                <p class="stockok"><abbr data-tip="18 casques en stock">stock</abbr></p>
+                <p class="prix">90.99€</p>
+                <p class="marque">Julbo</p>
+                <p class="modele">SL white</p>
+                <img class="classement classement45" src="../images_goodies/lunettes/etoiles.gif" alt="Classement 3,5 sur 5">
+                <span class="link">(13 avis)</span>
+            </article>
+             <article>
+                <img src="../images_goodies/lunettes/lunettes_7.jpg" alt="agv Skyline Multi Gunmetal Red">
+                <p class="stockok"><abbr data-tip="Plus que 8 casques en stock...">stock</abbr></p>
+                <p class="prix">75,46€</p>
+                <p class="marque">Julbo</p>
+                <p class="modele">Powell Purple</p>
+                <img class="classement classement25" src="../images_goodies/lunettes/etoiles.gif" alt="Classement 2,5 sur 5">
+                <span class="link">(27 avis)</span>
+            </article>
+             <article>
+                <img src="../images_goodies/lunettes/lunettes_8.jpg" alt="agv Skyline Multi Gunmetal Red">
+                <p class="stockok"><abbr data-tip="Plus que 8 casques en stock...">stock</abbr></p>
+                <p class="prix">115,19€</p>
+                <p class="marque">Julbo</p>
+                <p class="modele">Shield Cameleon</p>
+                <img class="classement classement25" src="../images_goodies/lunettes/etoiles.gif" alt="Classement 4,5 sur 5">
+                <span class="link">(7 avis)</span>
+            </article>
+    </section>
     <head>
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
         <footer class="border-top">
