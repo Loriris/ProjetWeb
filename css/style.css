@@ -287,3 +287,11 @@ a.nav-link:hover{
     border-left: solid;
     border-width: thin;
 }
+
+.freest{
+    margin-left:0px;
+}
+
+.spo{
+    margin-left: 8px;
+}
