@@ -167,6 +167,8 @@ a.nav-link:hover{
     flex: 1;
     text-align: center;
     justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .footer-main .list-footer{
@@ -306,6 +308,9 @@ a.nav-link:hover{
     article{
         margin: 3%!important;
     }
+    .logo-footer{
+        width: 50%;
+    }
 }
 
 @media only screen and (max-width: 1024px){
@@ -345,7 +350,7 @@ a.nav-link:hover{
     }
 
     .logo-footer{
-        width: auto;
+        width: 60%;
     }
 }
 
@@ -366,6 +371,10 @@ a.nav-link:hover{
         width: 80%;
         height: auto;
         margin-right: 0px;
+    }
+
+    .logo-footer{
+        width: 80%;
     }
 
 }
