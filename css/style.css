@@ -352,19 +352,29 @@ a.nav-link:hover{
     section{
         margin-left: 10px;
     }
+    
+    .border_connection{
+        border-left: none;
+        border-top: solid;
+        margin-top: 10px;
+        padding-top: 10px;
+        
+    }
 
     .card-img, .card-img-top{
-        width: 80%;
+        width: 100%;
         height: auto;
     }
     .card-body{
-        width: 80%;
+        width: auto;
         height: auto;
         margin-right: 0px;
     }
-
+    .card-article{
+        width: 340px;
+    }
     .logo-footer{
-        width: 80%;
+        width: 100%;
     }
 
 }
