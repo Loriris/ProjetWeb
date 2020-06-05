@@ -19,24 +19,26 @@
 #lunettes {
     display: flex; /* Ce conteneur est "flexible" */
     flex-wrap: wrap; /* Les éléments flexibles sont disposés sur plusieurs lignes */
-    justify-content: flex-start; /* Les éléments sont répartis équitablement sur la ligne */
-    margin-bottom: 45px; /* Marge inférieure */
+    justify-content: center; /* Les éléments sont répartis équitablement sur la ligne */
 }
 
-#lunettes article {
-     width: 27%;
-    height: 280px;
-    margin: 30px;
-    padding: 5px;
+.classement-lu {
+    display: flex;
+
+}
+
+.article-lunette{
+    width: 30%;
+    margin: 9px;
+    padding: 0px;
     border: white thin solid;
     position: relative;
 }
 
-
 #lunettes article img {
     margin-left: 0;
-    width: 70%;
-    height: 75%;
+    width: 50%;
+    height: 50%;
 }
 
 #lunettes article:hover {
@@ -44,10 +46,10 @@
 }
 
 #lunettes .prix {
-  font-weight: bold;
-  color: red;
-  margin-bottom: -23px;
-  margin-left: 145px;
+    font-weight: bold;
+    color: red;
+    margin-bottom: -23px;
+    margin-left: 145px;
 }
 
 #lunettes .marque {
@@ -56,12 +58,12 @@
     display: inline; /* Affichage à la ligne pour éviter la superposition avec le stock */
     white-space: nowrap; /* Pas de passage à la ligne */
     font-weight: bold; /* Texte en gras */
-   
+
 }
 
 #lunettes .modele {
     text-transform : capitalize; /* Toutes les premières lettres en majuscules */
-    
+
 }
 
 #lunettes .stockok, #lunettes .stockko {
@@ -111,18 +113,18 @@
     z-index: 1; /* L'infobulle sera au dessus du reste */
 }
 
+.bordure-img{
+    width: 50%;
+}
 #lunettes .link{
-    margin-left: 130px;
+    margin-left: 0px;
     color:#ff5c00;
 }
 
 #lunettes .classement {
     width: 85px; /* Largeur de l'image */
     height: 18px; /* Hauteur de l'image */
-    position: absolute; /* Position absolue */
-    bottom: -29px; /* Bas */
     object-fit: none; /* Pas de redimensionnement de l'image */
-    margin: 0 39px; /* Marges extérieures */
 }
 
 #lunettes .classement.classement00 {

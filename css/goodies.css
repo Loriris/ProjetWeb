@@ -75,7 +75,7 @@ h1 {
     color: #ff6811; /* Couleur du texte */
     text-align: center; /* Le texte est centré */
     font-size: xx-large; /* Le texte est grossi en XXL */
-     font-family: "NewAth";
+     font-family: "Volkorn";
 }
 
 section {
@@ -113,7 +113,7 @@ img
     display: inline;
     font-size: x-large;
     color: black;
-    font-family: "NewAth";
+    font-family: "Ath";
     margin-left: 4%;
 }
 

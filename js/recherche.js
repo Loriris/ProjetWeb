@@ -9,10 +9,13 @@
 //Fonction de recherche d'article
 window.addEventListener('load', function ()
 {
+    //récupération des élément nécessaire
     let body = document.querySelectorAll('.body');
     let dropDownMenu = document.querySelectorAll('.dropdown-menu');
     let btnSujet = document.querySelectorAll('.btn_sujet');
     let input = document.querySelectorAll('#texteARechercher');
+    let btnRecherche = document.querySelectorAll('#recherche');
+    
     //ajout de bouton pour faciliter la saisie de sujet
     for(let index = 0; index< btnSujet.length; index++)
     {
@@ -25,6 +28,7 @@ window.addEventListener('load', function ()
         });
     }
     
+    //on enlève le menu si on clique autre part
     body[0].addEventListener('click',function() 
     {
             dropDownMenu[0].classList.add("none");
@@ -33,7 +37,7 @@ window.addEventListener('load', function ()
             dropDownMenu[1].classList.remove("none");
     });
     
-    let btnRecherche = document.querySelectorAll('#recherche');
+    //lancement de la recherche lors de l'appuie sur le bouton
     btnRecherche[0].addEventListener('click', function ()
     {
         dropDownMenu[0].classList.remove("block");
