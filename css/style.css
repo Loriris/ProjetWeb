@@ -299,3 +299,9 @@ a.nav-link:hover{
 .spo{
     margin-left: 8px;
 }
+
+@media screen and (max-width: 640px) {
+    .connexion-content{
+        width: 90%;
+    }
+}
