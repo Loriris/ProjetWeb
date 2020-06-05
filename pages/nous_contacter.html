@@ -43,37 +43,77 @@
                         Autres
                     </button>
                     <div class="dropdown-menu dropdown-menu-lg-right" id="autres">
-                        <button class="dropdown-item" type="button"><i class="fas fa-plug"></i> Se connecter</button>
+                        <button class="dropdown-item connexion-btn" type="button"><i class="fas fa-plug"></i> Se connecter</button>
                         <button class="dropdown-item" type="button"><i class="fas fa-shopping-cart"></i> Panier</button>
-                        <button class="dropdown-item" type="button"><i class="fas fa-search"></i> Rechercher</button>
                     </div>
                 </div>
             </nav>
         </header>
-        <div class="row">
+        
+        <!-- Connexion frame -->
+        <div id="connexion" class="connexion-frame none">
+            <div class="connexion-content">
+                <span class="close">&times;</span>
+                <div class="fom_col">
+                    <form class="needs-validation" method="POST" action="http://gil83.fr/nolark/testforms.php" novalidate>
+                        <div class="row">
+                            <div class="container col-lg-8">
+                                <div class="row">
+                                    <div class="col-lg-12 nom_utilisateur">
+                                        <label for="nom_utilisateur">Nom d'utilisateur</label>
+                                        <input type="text" class="form-control" name="nom_utilisateur" required>
+                                        <div class="invalid-feedback">Veuillez entrez un nom d'utilisateur</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12 mot_de_passe">
+                                        <label for="nom_utilisateur">Mot de passe</label>
+                                        <input type="password" class="form-control" name="mot_de_passe" required>
+                                        <div class="invalid-feedback">Veuillez entrez un mot de passe</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 right">
+                                        <button class="btn btn-primary submit_index" type="submit">Envoyer</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container col-lg-4 border_connection">
+                                <p>
+                                    Vous n'êtes pas encore inscrit ? 
+                                </p>
+                                <a href="../pages/inscription.html"> Cliquez ici ! </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row form_contact">
             <div class=" col-lg-6 left">
                 <fieldset>
                     <h2>Contact</h2>
                     <form class="needs-validation" method="POST" action="http://gil83.fr/nolark/testforms.php"  novalidate>
                         <div class="form-col">
                             <div class="col-lg-6">
-                                <label for="prenom">Prénom</label>
-                                <input type="text" class="form-control" name="prenom" pattern="^[a-zA-ZáàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ\s\-]+$" required>
+                                <label for="prenom" class="label_contact">Prénom</label>
+                                <input type="text" class="form-control contact" name="prenom" pattern="^[a-zA-ZáàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ\s\-]+$" required>
                                 <div class="invalid-feedback">Veuillez entrez un prénom valide</div>
                             </div>
                             <div class="col-lg-6">
-                                <label for="email">Email</label>
-                                <input type="text" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" class="form-control" name="email" placeholder="exemple@xyz.fr" required>
+                                <label for="email" class="label_contact">Email</label>
+                                <input type="text" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" class="form-control contact" name="email" placeholder="exemple@xyz.fr" required>
                                 <div class="invalid-feedback">Veuillez entrez un Email valide</div>
                             </div>
                             <div class="col-lg-6">
-                                <label for="sujet">Sujet</label>
-                                <input type="text" class="form-control" name="sujet" required>
+                                <label for="sujet" class="label_contact">Sujet</label>
+                                <input type="text" class="form-control contact" name="sujet" required>
                                 <div class="invalid-feedback">Veuillez entrez un sujet</div>
                             </div>
                             <div class="col-lg-6">
-                                <label for="commentaire">Commentaire</label>
-                                <textarea class="form-control" rows=10 name="commentaire" required></textarea>
+                                <label for="commentaire" class="label_contact">Commentaire</label>
+                                <textarea class="form-control contact" rows=10 name="commentaire" required></textarea>
                                 <div class="invalid-feedback">Veuillez entrez votre commentaire</div>
                             </div>
                         </div>
@@ -82,7 +122,7 @@
             </div>
             <div class="col-lg-5 right">
                 <div class="col-md-11">
-                    <div class="row">
+                    <div class="row form_contact">
                     <p> 
                         Si vous voulez faire des remarques où poser des questions en générales sur la marque ou le site nous vous écoutons.
                     </p>
@@ -115,7 +155,8 @@
                     </div>
                 </div>
             </footer>
-        <script src="../js/nous_contacter.js"></script>
+        <script src="../js/connexion.js" type="text/javascript"></script>
+        <script src="../js/verif_Form.js" type="text/javascript"></script>
         <script src="https://kit.fontawesome.com/d024b96f9f.js" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
