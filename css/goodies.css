@@ -10,7 +10,7 @@ and open the template in the editor.
 
 #carouselExampleCaptions
 {
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     margin-top: 20px; 
 }
@@ -21,10 +21,29 @@ and open the template in the editor.
    width : 100%;
 }
 
+
 h1 {
     color: #ff6811; /* Couleur du texte */
     text-align: center; /* Le texte est centré */
     font-size: xx-large; /* Le texte est grossi en XXL */
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: flex;
+    margin-left: 0%;
+}
+
+img
+{
+    vertical-align: middle;
+    border-style: none;
+    width: 20%;
+    margin: 0%;
+    left: 19%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #thematique h1 {
@@ -34,8 +53,8 @@ h1 {
     color: black;
 }
 
+
 .Photo1{
-font-family: 'Montserrat'; 
 display:inline;
 font-size: x-large;
 color: red;
@@ -43,19 +62,18 @@ margin-left: 5%;
 
 }
 .Photo2{
-font-family: 'Montserrat'; 
 display:inline;
 font-size: x-large;
 color: red;
 }
 
 .Photo3{
-font-family: 'Montserrat'; 
 display:inline;
 font-size: x-large;
 color: red;
 margin-left: 35%;
 }
+
 
 #gauche {
     background: transparent url('../images_goodies/element.png') no-repeat center 10px; /* Fond */
