@@ -6,7 +6,7 @@ Alors qu'est-ce que ZoneSport ? C'est un site web de référence sportive allian
 
 ZoneSport propose à ses adhérents de nouveaux articles parlant de leur sport préféré mais également de nombreux goodies à bas prix grâce aux sponsors !
 
-Alors n'hésitez pas à aller voir nos trois nouveaux articles fraichement publiés par nos experts et ainsi vous abonner aux newsletters pour ne pas manquer les nouvelles rubriques. ;)
+Alors n'hésitez pas à aller voir nos trois nouveaux articles fraichement publiés par nos experts et ainsi vous abonner aux newsletters afin de ne pas manquer les nouvelles rubriques. ;)
 
 ZoneSport - Projet Web/Dev 2020
 
