@@ -1,3 +1,21 @@
+
+@font-face{ 
+    font-family: "Retrow";
+    src: url('../css/polices/Retrow Mentho Italic.ttf') format("truetype");
+}
+
+@font-face{ 
+    font-family: "Volkorn";
+    src: url('../css/polices/Vollkorn-BoldItalic.ttf') format("truetype");
+}
+
+@font-face{ 
+    font-family: "Ath";
+    src: url('../css/polices/Athletic.TTF') format("truetype");
+}
+
+
+
 #lunettes {
     display: flex; /* Ce conteneur est "flexible" */
     flex-wrap: wrap; /* Les éléments flexibles sont disposés sur plusieurs lignes */
@@ -34,16 +52,16 @@
 
 #lunettes .marque {
     text-transform : uppercase;  /* Mise en majuscules du texte */
-    font-family: 'Retrow'; /* Police de caractères */
     font-size: x-large; /* Le texte est grossi en XL */
     display: inline; /* Affichage à la ligne pour éviter la superposition avec le stock */
     white-space: nowrap; /* Pas de passage à la ligne */
     font-weight: bold; /* Texte en gras */
+   
 }
 
 #lunettes .modele {
     text-transform : capitalize; /* Toutes les premières lettres en majuscules */
-    font-family: 'Volkorn';
+    
 }
 
 #lunettes .stockok, #lunettes .stockko {
