@@ -8,6 +8,32 @@ and open the template in the editor.
     Author     : niko8
 */
 
+@font-face{ 
+    font-family: "Retrow";
+    src: url('../css/polices/Retrow Mentho Italic.ttf') format("truetype");
+}
+
+@font-face{ 
+    font-family: "Volkorn";
+    src: url('../css/polices/Vollkorn-BoldItalic.ttf') format("truetype");
+}
+
+@font-face{ 
+    font-family: "Ath";
+    src: url('../css/polices/Athletic.TTF') format("truetype");
+}
+
+@font-face{ 
+    font-family: "Var";
+    src: url('../css/polices/varsity_regular.ttf') format("truetype");
+}
+
+@font-face{ 
+    font-family: "NewAth";
+    src: url('../css/polices/New Athletic M54.ttf') format("truetype");
+}
+
+
 #carouselExampleCaptions
 {
     width: 100%;
@@ -17,7 +43,7 @@ and open the template in the editor.
 
 .carousel-item img
 {
-    height: 100%;
+   height: 100%;
    width : 100%;
 }
 
@@ -26,6 +52,12 @@ h1 {
     color: #ff6811; /* Couleur du texte */
     text-align: center; /* Le texte est centré */
     font-size: xx-large; /* Le texte est grossi en XXL */
+     font-family: "NewAth";
+}
+
+section {
+    display: block;
+    margin-bottom: 4%;
 }
 
 p {
@@ -54,25 +86,32 @@ img
 }
 
 
-.Photo1{
-display:inline;
-font-size: x-large;
-color: red;
-margin-left: 5%;
-
-}
-.Photo2{
-display:inline;
-font-size: x-large;
-color: red;
+.Photo1 {
+    display: inline;
+    font-size: x-large;
+    color: red;
+    font-family: "NewAth";
+    margin-left: 4%;
 }
 
-.Photo3{
-display:inline;
-font-size: x-large;
-color: red;
-margin-left: 35%;
+.Photo2 {
+    display: inline;
+    font-size: x-large;
+    margin: 18%;
+    color: red;    
+    font-family: "NewAth";
+   
 }
+
+.Photo3 {
+    display: inline;
+    font-size: x-large;
+    color: red;
+    margin: -17px;
+    font-family: "NewAth";
+}
+
+
 
 
 #gauche {
