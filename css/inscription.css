@@ -34,6 +34,10 @@ body{
     color : white;
 }
 
+.form-check{
+   margin-bottom: 20px;
+}
+
 input::-webkit-input-placeholder {
     color: white !important;
 }

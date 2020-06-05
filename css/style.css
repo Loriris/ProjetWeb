@@ -8,18 +8,8 @@
     margin-bottom: 0;
 }
 
-@font-face{ 
-    font-family: "Retrow";
-    src: url('../css/polices/Retrow Mentho Italic.ttf') format("truetype");
-}
-
-@font-face{ 
-    font-family: "Volkorn";
-    src: url('../css/polices/Vollkorn-BoldItalic.ttf') format("truetype");
-}
-
 .navbar{
-    height: 90px;
+    height: auto;
     width: 100%;
 }
 .border-bottom{
@@ -41,7 +31,6 @@
     margin-left: 15px;
 }
 a.nav-link{
-
     font-size: 25px;
     color : white!important;
     padding-right: 25px!important;
@@ -55,14 +44,13 @@ a.nav-link:hover{
 .dropdown-item.active, .dropdown-item:active{
     background-color: #ABB2B9
 }
+
+
 .btn-secondary{
     background-color: #ABB2B9;
     border-color: #808B96;
 }
 
-.dropdown-item{
-    text-align: right;
-}
 .page{
     background-color: white;
     height: 100%;
@@ -149,7 +137,7 @@ a.nav-link:hover{
 .footer-main .ficons{
     flex: 1;
     flex-direction: row;
-    
+
 }
 
 .footer-main .copyright{
@@ -176,6 +164,10 @@ a.nav-link:hover{
     font-size: 15px;
 }
 
+.logo-footer{
+    width: 30%;
+}
+
 .sponsor{
     list-style-type: none;
     font-size: 15px;
@@ -190,15 +182,6 @@ a.nav-link:hover{
 }
 .sponsor li a:hover{
     color: blue;
-}
-
-@media only screen and (min-width : 1024px) and (max-width : 1280px){
-    body{
-        width: 100%;
-    }
-    article{
-        margin: 3%!important;
-    }
 }
 
 .connexion-frame {
@@ -303,5 +286,83 @@ a.nav-link:hover{
 @media screen and (max-width: 640px) {
     .connexion-content{
         width: 90%;
+    }
+}
+
+@media only screen and (min-width : 1024px) and (max-width : 1280px){
+    body{
+        width: 100%;
+    }
+    article{
+        margin: 3%!important;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    body{
+        width: 100%;
+    }
+
+    .navbar{
+        width: 100%
+    }
+
+    #navbarText {
+        display: flex;
+    }
+
+    .navbar-collapse{
+        flex-basis: 0;
+    }
+
+    a.nav-link{
+        font-size: 20px;
+    }
+
+    .imglogoheader{
+        width: 120px;
+    }
+    .navbar-light .navbar-brand{
+        border-right: #ABB2B9 solid;
+        border-width: thin;
+        padding-right: 10px;
+        padding-left: 5px;
+        margin-right: 5px;
+    }
+
+    .footer-main .footer-items {
+        margin-bottom: auto;
+    }
+
+    .logo-footer{
+        width: auto;
+    }
+}
+
+@media only screen and (max-width : 576px){
+    body{
+        width: 100%
+    }
+
+    section{
+        margin-left: 10px;
+    }
+
+    .card-img, .card-img-top{
+        width: 80%;
+        height: auto;
+    }
+    .card-body{
+        width: 80%;
+        height: auto;
+        margin-right: 0px;
+    }
+
+}
+
+@media (max-device-width:768px) and (orientation: landscape) {
+    html {
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
     }
 }
