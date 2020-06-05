@@ -1,0 +1,92 @@
+/* 
+  Description : CSS principal définissant la charte graphique du site. 
+  Created on : 5 juin 2020, 15:42:00
+  Auteur : Loris Martinez - Alexis Rafé - Nicolas Lebon
+  Email : lorismartinez1202@gmail.com - alexisrafe@gmail.com - niko83136@gmail.com
+*/
+
+@font-face{ 
+    font-family: "Valorant";
+    src: url('../css/polices/Valorant Font.ttf') format("truetype");
+}
+
+@font-face{ 
+    font-family: "Roboto";
+    src: url('../css/polices/Roboto-Light.ttf') format("truetype");
+}
+
+.main-div{
+    width: auto;
+    margin: 10px 10% 30px 10%; 
+    box-shadow: 7px 5px 5px #FC445E;
+}
+
+.art-border{
+    padding: 15px;
+    border-right: 1px #FC445E solid;
+    border-left: 1px #FC445E solid ;
+    border-bottom: 1px #FC445E solid;
+}
+
+.jumbotron-fluid{
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px black solid;
+    width: 80%;
+    margin-left: 9%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+}
+
+.lead img{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.lead{
+    padding: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.second{
+    text-align: right;
+    font-style: italic;  
+}
+.valorantban{
+    border-bottom: 1px black solid;
+    width: 100%;
+}
+.art-titre{
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    font-family: 'Valorant';
+
+}
+
+.art-pad{
+    width: 100%
+}
+.art-date{
+    text-align: center;
+    font-style: italic;  
+}
+
+.art-para{
+    font-size: 17px;
+    font-family: "Roboto";
+}
+
+.badge-danger{
+    width: 10%;
+    padding: 14px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.badge-top{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
