@@ -1,0 +1,31 @@
+/* 
+    Description : CSS de la page rugby_article.html 
+    Created on : 02 Juin 2020, 10:23:27
+    Auteur : Loris Martinez - Alexis Rafé - Nicolas Lebon
+    Email : lorismartinez1202@gmail.com - alexisrafe@gmail.com - niko83136@gmail.com
+*/
+
+.center{
+    text-align: center;
+}
+
+.titre{
+    margin-bottom: 30px;
+}
+
+.image_article{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.retrecissment{
+    width:20%;
+}
+
+p{
+    text-align: justify;
+}
+
+body{
+    overflow-x: hidden;
+}
