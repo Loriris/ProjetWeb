@@ -95,6 +95,10 @@ a.nav-link:hover{
 .badge-dark{
     margin-left: 8px;
 }
+
+.badge-success{
+    margin-left: 8px;
+}
 .card-article{
     width: 400px;
 }
