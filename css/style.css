@@ -144,8 +144,6 @@ p{
 
 .footer-main .ficons{
     flex: 1;
-    flex-direction: row;
-
 }
 
 .footer-main .copyright{
@@ -165,7 +163,6 @@ p{
 .footer-main .fcenter{
     flex: 1;
     text-align: center;
-    justify-content: center;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -190,8 +187,8 @@ p{
 }
 
 .h4-sponsor{
-   padding-bottom: 15px;
-   padding-top: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 .sponsor li a{
     color: #1977FA;
@@ -349,10 +346,6 @@ p{
         margin-right: 5px;
     }
 
-    .footer-main .footer-items {
-        margin-bottom: auto;
-    }
-
     .logo-footer{
         width: 60%;
     }
@@ -366,13 +359,13 @@ p{
     section{
         margin-left: 10px;
     }
-    
+
     .border_connection{
         border-left: none;
         border-top: solid;
         margin-top: 10px;
         padding-top: 10px;
-        
+
     }
 
     .card-img, .card-img-top{
@@ -388,9 +381,12 @@ p{
         width: 340px;
     }
     .logo-footer{
-        width: 100%;
+        width: 120px;
     }
-
+    .footer-main .footer-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 
 @media (max-device-width:768px) and (orientation: landscape) {

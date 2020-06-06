@@ -13,16 +13,20 @@ body{
     margin: 20px 70px 20px 20px;
     text-align: justify;
     line-height: 40px;
+    font-size: 20px;
     font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif; 
 }
 
+
 .border-text{
+    width: 50%;
+    padding-right: 65px;
     border-right: 1px #D5D8DC solid;
 }
 
 .titre-tete{
     margin: 20px;
-    
+    font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
 }
 span {
     position:  absolute;
@@ -39,10 +43,7 @@ span {
 
 .img-fluid{
     margin: 20px 20px 0px 20px;
-    
-}
-.map{
-    width: auto;
+
 }
 
 .titre-map{
@@ -50,21 +51,74 @@ span {
     font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
 }
 
-.img-map{
-    margin: 15px 25px 25px 25px;
-}
-
 .col-lg-6{
+    flex: none;
     margin-bottom: 20px;
     margin-top: 20px;
-    max-width: 90%;
+    max-width: none;
 }
 .second-qsn{
+    width: 50%;
     text-align: center;
-
+    padding-left: 65px;
 }
 
 .row{
-    margin-right: 3%;
-    margin-left: 3%;
+    margin: 2% 3% 3% 3%;
+}
+
+video{
+    margin-top: 10%;
+    width : 100%;
+    box-shadow: 7px 7px 7px black;
+}
+
+.map{
+    width:80%;
+}
+
+@media only screen and (max-width: 1024px){
+
+    .second-qsn{
+        width: 100%;
+    }
+
+    .border-text{
+        width: 100%;
+        padding-right: 0;
+        border: none;
+    }
+    
+    video{
+        margin: 0;
+    }
+
+}
+
+@media only screen and (max-width : 576px){
+    .text_pres{
+        margin: 20px 20px 20px 20px;
+        line-height: 35px;
+    }
+    
+    .second-qsn{
+        padding-left: 0;
+    }
+    
+    .map{
+        width: 100%
+    }
+    
+    .titre-map{
+        font-size: 20px;
+    }
+    
+    .titre-tete{
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+    
+    .col-lg-6{
+        margin-top: 0;
+    }
 }
