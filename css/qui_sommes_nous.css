@@ -10,6 +10,61 @@ body{
 }
 
 .text_pres{
-    margin-left: 30px;
-    margin-top: 50px;
+    margin: 20px 70px 20px 20px;
+    text-align: justify;
+    line-height: 40px;
+    font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif; 
+}
+
+.border-text{
+    border-right: 1px #D5D8DC solid;
+}
+
+.titre-tete{
+    margin: 20px;
+}
+span {
+    position:  absolute;
+    display: block;
+    margin:  10px;
+    font-size: 15px;
+    visibility: hidden;
+    font-weight: italic;
+    font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
+}
+
+.img-fluid:hover + span{
+    visibility: visible;
+}
+
+.img-fluid{
+    margin: 20px 20px 0px 20px;
+    
+}
+.map{
+    width: auto;
+}
+
+.titre-map{
+    margin: 30px 25px 15px 25px;
+}
+
+.img-map{
+    margin: 15px 25px 25px 25px;
+}
+
+.col-lg-6{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    max-width: 90%;
+}
+.second-qsn{
+    text-align: center;
+
+}
+
+
+.row{
+    margin-right: 3%;
+    margin-left: 3%;
 }
