@@ -13,7 +13,7 @@ h1{
     margin-top: 50px;
 }
 
-p{
+.phrase_contact{
     font-size : 20px;   
 }
 
@@ -54,4 +54,8 @@ body{
 
 footer{
     margin-top: 100px;
+}
+
+.feed_contact{
+    margin-left: 30px;
 }
