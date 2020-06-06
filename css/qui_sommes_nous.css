@@ -22,6 +22,7 @@ body{
 
 .titre-tete{
     margin: 20px;
+    
 }
 span {
     position:  absolute;
@@ -29,10 +30,9 @@ span {
     margin:  10px;
     font-size: 15px;
     visibility: hidden;
-    font-weight: italic;
+    font-style: italic;
     font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
 }
-
 .img-fluid:hover + span{
     visibility: visible;
 }
@@ -47,6 +47,7 @@ span {
 
 .titre-map{
     margin: 30px 25px 15px 25px;
+    font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
 }
 
 .img-map{
@@ -62,7 +63,6 @@ span {
     text-align: center;
 
 }
-
 
 .row{
     margin-right: 3%;
