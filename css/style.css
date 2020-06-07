@@ -108,11 +108,15 @@ p{
 }
 
 .none{
-    display:none;
+    display: none;
 }
 
 .block{
-    display:block;
+    display: block;
+}
+
+.btn_sujet, .freest, .spo{
+    cursor: pointer;
 }
 
 .pagination{

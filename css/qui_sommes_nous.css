@@ -43,7 +43,7 @@ span {
 
 .img-fluid{
     margin: 20px 20px 0px 20px;
-
+    border-radius: 8px;
 }
 
 .titre-map{
@@ -75,6 +75,7 @@ video{
 
 .map{
     width:80%;
+    border-radius: 8px;
 }
 
 @media only screen and (max-width: 1024px){
