@@ -84,8 +84,8 @@
             </div>
         </div>
         
-        <div class="row form_contact">
-            <div class=" col-lg-6 left">
+        <div class="row_fluid form_contact">
+            <div class="container-fluid col-10">
                 <fieldset>
                     <h2>Contact</h2>
                     <form class="needs-validation" method="POST" action="http://gil83.fr/nolark/testforms.php"  novalidate>
@@ -93,37 +93,35 @@
                             <div class="col-lg-6">
                                 <label for="prenom" class="label_contact">Prénom</label>
                                 <input type="text" class="form-control contact" name="prenom" pattern="^[a-zA-ZáàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ\s\-]+$" required>
-                                <div class="invalid-feedback">Veuillez entrer un prénom valide</div>
+                                <div class="invalid-feedback feed_contact">Veuillez entrer un prénom valide</div>
                             </div>
                             <div class="col-lg-6">
                                 <label for="email" class="label_contact">Email</label>
                                 <input type="text" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" class="form-control contact" name="email" placeholder="exemple@xyz.fr" required>
-                                <div class="invalid-feedback">Veuillez entrer un Email valide</div>
+                                <div class="invalid-feedback feed_contact">Veuillez entrer un Email valide</div>
                             </div>
                             <div class="col-lg-6">
                                 <label for="sujet" class="label_contact">Sujet</label>
                                 <input type="text" class="form-control contact" name="sujet" required>
-                                <div class="invalid-feedback">Veuillez entrer un sujet</div>
+                                <div class="invalid-feedback feed_contact">Veuillez entrer un sujet</div>
                             </div>
                             <div class="col-lg-6">
                                 <label for="commentaire" class="label_contact">Commentaire</label>
                                 <textarea class="form-control contact" rows=10 name="commentaire" required></textarea>
-                                <div class="invalid-feedback">Veuillez entrer votre commentaire</div>
+                                <div class="invalid-feedback feed_contact">Veuillez entrer votre commentaire</div>
                             </div>
                         </div>
                         <button class="btn btn-primary submit_contact" type="submit">Envoyer</button>
                     </form>
             </div>
-            <div class="col-lg-5 right">
-                <div class="col-md-11">
-                    <div class="row form_contact">
-                    <p> 
+            <div class="container-fluid col-10">
+                <div class="row_fluid form_contact">
+                    <p class="phrase_contact"> 
                         Si vous voulez faire des remarques où poser des questions en générales sur la marque ou le site nous vous écoutons.
                     </p>
-                    </div>
                 </div>
             </div>
-        </div>
+            </div>
         <footer id="border-top">
                 <div class="footer-main">
                     <div class="footer-container">
@@ -134,7 +132,7 @@
                             <div class="copyright">&copy;2020 ZoneSport</div>
                         </div>
                         <div class="footer-items fcenter">
-                            <img src="../logo.png" alt="logo" style="width: 30%;"/>
+                            <img src="../logo.png" alt="logo" class="logo-footer"/>
                         </div>
                         <div class="footer-items list-footer">
                             <ul class="sponsor"><h4 class="h4-sponsor">Sponsors</h4>

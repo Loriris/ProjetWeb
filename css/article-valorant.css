@@ -10,11 +10,6 @@
     src: url('../css/polices/Valorant Font.ttf') format("truetype");
 }
 
-@font-face{ 
-    font-family: "Roboto";
-    src: url('../css/polices/Roboto-Light.ttf') format("truetype");
-}
-
 .main-div{
     width: auto;
     margin: 10px 10% 30px 10%; 
@@ -54,6 +49,7 @@
 }
 .valorantban{
     border-bottom: 1px black solid;
+    border-radius: 8px;
     width: 100%;
 }
 .art-titre{
@@ -81,7 +77,12 @@ p{
     font-family: "Roboto";
 }
 
-.badge-danger{
+.art-para{
+    font-size: 17px;
+    text-align: justify;
+}
+
+.badge-main{
     width: 10%;
     padding: 14px;
     margin-bottom: 10px;

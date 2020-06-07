@@ -10,6 +10,116 @@ body{
 }
 
 .text_pres{
-    margin-left: 30px;
-    margin-top: 50px;
+    margin: 20px 70px 20px 20px;
+    text-align: justify;
+    line-height: 40px;
+    font-size: 20px;
+    font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif; 
+}
+
+
+.border-text{
+    width: 50%;
+    padding-right: 65px;
+    border-right: 1px #D5D8DC solid;
+}
+
+.titre-tete{
+    margin: 20px;
+    font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
+}
+span {
+    position:  absolute;
+    display: block;
+    margin:  10px;
+    font-size: 15px;
+    visibility: hidden;
+    font-style: italic;
+    font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
+}
+.img-fluid:hover + span{
+    visibility: visible;
+}
+
+.img-fluid{
+    margin: 20px 20px 0px 20px;
+    border-radius: 8px;
+}
+
+.titre-map{
+    margin: 30px 25px 15px 25px;
+    font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
+}
+
+.col-lg-6{
+    flex: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    max-width: none;
+}
+.second-qsn{
+    width: 50%;
+    text-align: center;
+    padding-left: 65px;
+}
+
+.row{
+    margin: 2% 3% 3% 3%;
+}
+
+video{
+    margin-top: 10%;
+    width : 100%;
+    box-shadow: 7px 7px 7px black;
+}
+
+.map{
+    width:80%;
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 1024px){
+
+    .second-qsn{
+        width: 100%;
+    }
+
+    .border-text{
+        width: 100%;
+        padding-right: 0;
+        border: none;
+    }
+    
+    video{
+        margin: 0;
+    }
+
+}
+
+@media only screen and (max-width : 576px){
+    .text_pres{
+        margin: 20px 20px 20px 20px;
+        line-height: 35px;
+    }
+    
+    .second-qsn{
+        padding-left: 0;
+    }
+    
+    .map{
+        width: 100%
+    }
+    
+    .titre-map{
+        font-size: 20px;
+    }
+    
+    .titre-tete{
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+    
+    .col-lg-6{
+        margin-top: 0;
+    }
 }
