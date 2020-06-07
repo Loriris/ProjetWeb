@@ -10,5 +10,5 @@ Alors n'hésitez pas à aller voir nos trois nouveaux articles fraichement publi
 
 ZoneSport - Projet Web/Dev 2020 avec Nicolas Lebon(@Nikotesto), Alexis Rafé(@Alexis RAFÉ) et Loris Martinez(@Loriris).
 
-NB : Bien sûr, le projet n'est pas fini ! On a juste mis en place un maximum de pages différentes avec le temps imparti, afin de balayer et mettre en application l'ensemble des connaissances acquises en cours.
+_NB_: Bien sûr, le projet n'est pas fini ! On a juste mis en place un maximum de pages différentes avec le temps imparti, afin de balayer et mettre en application l'ensemble des connaissances acquises en cours.
 
