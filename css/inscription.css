@@ -1,13 +1,13 @@
- /* 
-    Description : CSS inscription définissant la forme de la page inscription du site. 
-    Created on : 4 juin 2020, 15:40:27
-    Auteur : Loris Martinez - Alexis Rafé - Nicolas Lebon
-    Email : lorismartinez1202@gmail.com - alexisrafe@gmail.com - niko83136@gmail.com
+/* 
+   Description : CSS inscription définissant la forme de la page inscription du site. 
+   Created on : 4 juin 2020, 15:40:27
+   Auteur : Loris Martinez - Alexis Rafé - Nicolas Lebon
+   Email : lorismartinez1202@gmail.com - alexisrafe@gmail.com - niko83136@gmail.com
 */
 
 body{
     width:100%;
-    
+
 }
 
 .main-form{
@@ -19,14 +19,7 @@ body{
 
 .main-title{
     margin: 20px;
-}
-.form-radio{
-    display: flex;
-    flex-direction: row;
-    
-}
-.form-sexe{
-    margin: 10px;
+    font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
 }
 
 .form-control{
@@ -35,7 +28,7 @@ body{
 }
 
 .form-check{
-   margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 input::-webkit-input-placeholder {

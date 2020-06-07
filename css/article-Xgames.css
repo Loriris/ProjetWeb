@@ -1,0 +1,119 @@
+/* 
+  Description : CSS principal définissant la charte graphique du site. 
+  Created on : 5 juin 2020, 15:42:00
+  Auteur : Loris Martinez - Alexis Rafé - Nicolas Lebon
+  Email : lorismartinez1202@gmail.com - alexisrafe@gmail.com - niko83136@gmail.com
+*/
+
+
+@font-face{ 
+    font-family: "NewAth";
+    src: url('../css/polices/New Athletic M54.ttf') format("truetype");
+}
+
+@font-face{ 
+    font-family: "Roboto";
+    src: url('../css/polices/Roboto-Light.ttf') format("truetype");
+}
+.imgXgames
+{
+    width: 50%;
+    margin-left: 24%;
+}
+.main-div{
+    width: auto;
+    margin: 10px 10% 30px 10%; 
+    box-shadow: 7px 5px 5px #44b9fc;
+}
+
+.art-border{
+    padding: 15px;
+    border-right: 1px #44b9fc solid;
+    border-left: 1px #44b9fc solid ;
+    border-bottom: 1px #44b9fc solid;
+}
+
+.jumbotron-fluid{
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px black solid;
+    width: 80%;
+    margin-left: 9%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+}
+
+.lead img{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.lead{
+    padding: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.second{
+    text-align: right;
+    font-style: italic;  
+}
+.valorantban{
+    border-bottom: 1px black solid;
+    width: 100%;
+}
+.art-titre{
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    font-family: 'NewAth';
+
+}
+
+.art-pad{
+    width: 100%
+}
+.art-date{
+    text-align: center;
+    font-style: italic;  
+}
+
+p{
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.art-para{
+    font-size: 17px;
+    font-family: "Roboto";
+}
+
+.badge-danger{
+    width: 10%;
+    background-color: black;
+    padding: 14px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.badge-top{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+
+@media only screen and (max-width: 1024px){
+    .badge-danger{
+        width: auto;
+    }
+}
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 7 juin 2020, 10:46:03
+    Author     : niko8
+*/
+

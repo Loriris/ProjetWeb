@@ -33,6 +33,29 @@ and open the template in the editor.
     src: url('../css/polices/New Athletic M54.ttf') format("truetype");
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+     height: 100px;
+     width: 100px;
+     outline: black;
+     background-size: 100%, 100%;
+     border-radius: 50%;
+     border: 1px solid black;
+     background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+     content: '>';
+     font-size: 55px;
+     color: black;
+}
+
+.carousel-control-prev-icon:after {
+     content: '<';
+     font-size: 55px;
+     color: black;
+}
 
 #carouselExampleCaptions
 {
@@ -52,7 +75,7 @@ h1 {
     color: #ff6811; /* Couleur du texte */
     text-align: center; /* Le texte est centré */
     font-size: xx-large; /* Le texte est grossi en XXL */
-     font-family: "NewAth";
+     font-family: "Volkorn";
 }
 
 section {
@@ -89,8 +112,8 @@ img
 .Photo1 {
     display: inline;
     font-size: x-large;
-    color: red;
-    font-family: "NewAth";
+    color: black;
+    font-family: "Ath";
     margin-left: 4%;
 }
 
@@ -98,7 +121,7 @@ img
     display: inline;
     font-size: x-large;
     margin: 18%;
-    color: red;    
+    color: black;    
     font-family: "NewAth";
    
 }
@@ -106,7 +129,7 @@ img
 .Photo3 {
     display: inline;
     font-size: x-large;
-    color: red;
+    color: black;
     margin: -17px;
     font-family: "NewAth";
 }
